@@ -46,20 +46,43 @@ export default function Home() {
             Regarding AP Biology and AP Calculus BC
           </AlertTitle>
           <AlertDescription>
-            I can tutor those subjects depending on the topc. Inquire beforehand
-            to see if I can.
+            I can tutor these subjects depending on the topic. Please let me
+            know before scheduling.
           </AlertDescription>
         </Alert>
 
-        <Card className="w-full">
-          <CardHeader>
-            <CardTitle>Contact Info</CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-2">
-            <p>Email: 101960@bergenfield.org</p>
-            <p>Discord: typoctave</p>
-          </CardContent>
-        </Card>
+        <div className="grid gap-8 md:grid-cols-2 mb-8">
+          <Card className="w-full">
+            <CardHeader>
+              <CardTitle>Schedule</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>Monday: 3:15-5:00</li>
+                <li>Tuesday: Off</li>
+                <li>Wednesday: 3:00-5:00</li>
+                <li>Thursday: 3:00-5:00</li>
+                <li>Friday: 3:00-5:00</li>
+              </ul>
+            </CardContent>
+          </Card>
+
+          <Card className="w-full">
+            <CardHeader>
+              <CardTitle>Contact Info</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>Email: 101960@bergenfield.org</li>
+                <li>Discord: typoctave</li>
+              </ul>
+              <p className="mt-6 font-light">
+                Discord is a valid method of contact, you just need to let me
+                know your first and last name, and grade.
+              </p>
+            </CardContent>
+          </Card>
+        </div>
       </div>
     </>
   );
