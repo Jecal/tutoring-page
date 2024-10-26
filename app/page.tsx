@@ -74,12 +74,7 @@ export default function Home() {
             <CardContent>
               <ul className="list-disc pl-5 space-y-2">
                 <li>Email: 101960@bergenfield.org</li>
-                <li>Discord: typoctave</li>
               </ul>
-              <p className="mt-6 font-light">
-                Discord is a valid method of contact, you just need to let me
-                know your first and last name, and grade.
-              </p>
             </CardContent>
           </Card>
         </div>
