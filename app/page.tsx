@@ -58,7 +58,7 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <ul className="list-disc pl-5 space-y-2">
-                <li>Monday: 3:15-5:00</li>
+                <li>Monday: 3:15-3:45</li>
                 <li>Tuesday: Off</li>
                 <li>Wednesday: 3:00-5:00</li>
                 <li>Thursday: 3:00-5:00</li>
